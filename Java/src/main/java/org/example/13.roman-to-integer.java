@@ -5,6 +5,10 @@
  */
 
 // @lc code=start
+
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
     public int romanToInt(String s) {
         Map<Character, Integer> romanMap = new HashMap<>();
